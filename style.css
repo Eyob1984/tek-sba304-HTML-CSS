@@ -17,6 +17,16 @@ body {
     height: 15rem;
     background-color: #d61C4E;
     justify-content: center;
+    animation-name: sba;
+    animation-duration: 10s;
+}
+
+
+@keyframes sba {
+  0%   {background-color: #d61C4E;}
+  25%  {background-color: #293462;}
+  50%  {background-color: #FEB139;}
+  100% {background-color: #d61C4E;}
 }
 
 .nav-box a {
